@@ -1,0 +1,317 @@
+.hero{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../img/img_6_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero::before{
+    content: "";
+    background-color: black;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    width: 85%;
+}
+.hero_text h1{
+    color: white;
+    text-align: center;
+}
+.hero_text p{}
+
+.hero_text a{
+    display: block;
+    width: 180px;
+    background-color: #541c0a;
+    margin: 15px auto;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.hero_text a:active{
+    transform: scale(.9);
+}
+/*********************** Backfill  1 ******************************/
+.backfill_1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.backfill_1_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+}
+.backfill_1_container h2{
+    text-align: center;
+}
+.backfill_1_container p{
+    text-align: center;
+    margin-top: 5px;
+}
+.backfill_1_container a{
+    display: block;
+    width: 180px;
+    background-color: #541c0a;
+    margin: 15px auto;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.backfill_1_container a:active{
+    transform: scale(.9);
+}
+/*********************** Backfill image 1 ******************************/
+.backfill_img{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../img/img_7_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backfill_img::before{
+
+}
+
+/*********************** why_choose_us ******************************/
+.why_choose_us{
+    width: 100vw;
+    background-color: white;
+}
+.why_choose_us_container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin: 50px auto;
+}
+.why_choose_us_container div{
+    text-align: center;
+    margin: 15px 0;
+}
+.why_choose_us_container div h3{
+    margin: 3px 0;
+}
+.why_choose_us_container div p{}
+
+/*********************** Our service container ******************************/
+.our_service{
+    width: 100vw;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our_service h2{
+    text-align: center;
+    margin: 15px;
+}
+.our_service_container div::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service_img_1{
+    background-image: url(../img/img_3_.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+.service_img_2{
+    background-image: url(../img/img_8_.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+.service_img_3{
+    background-image: url(../img/img_2_.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+.our_service_container div h3{
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.our_service a{
+    display: block;
+    width: 180px;
+    background-color: #541c0a;
+    margin: 15px auto;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.our_service a:active{
+    transform: scale(.9);
+}
+
+/*********************** Comments ******************************/
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.comments h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.comments_container{
+}
+.comments_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+}    
+.comments_item_text{
+    text-align: center;
+    height: 110px;
+
+}
+.comments_item_stars{}
+.comments_item_name_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.comments_item_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comments_item_name{
+    margin-left: 5px;
+}
+
+
+
+/*********************** TABLET ******************************/
+@media(min-width:768px){
+    .hero{
+        height: 85vh;
+        background-image: url(../img/img_6.jpg);
+    }
+    .hero_text{
+        width: 65%;
+    }
+    .hero_text h1{
+        font-size: 3rem;
+    }
+    .backfill_1{
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .backfill_1_container{
+        width: 45%;
+    }
+    .backfill_img{
+        width: 45%;
+        margin-right: 50px;
+        background-image: url(../img/img_7.jpg);
+    }
+    .why_choose_us{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why_choose_us_container{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .why_choose_us_container div{
+        width: 22%;
+    }
+    .our_service_container{
+        display: flex;
+    }
+    .service_img_1{
+        background-image: url(../img/img_3.jpg);
+        width: 30vw;
+        height: 80vh;
+    }
+    .service_img_2{
+        background-image: url(../img/img_8.jpg);
+        width: 30vw;
+        height: 80vh;
+    }
+    .service_img_3{
+        background-image: url(../img/img_2.jpg);
+        width: 30vw;
+        height: 80vh;
+    }
+    .comments{
+        justify-content: center;
+        align-items: center;
+    }
+    .comments_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .comments_item{
+        width: 300px;
+    }
+}
