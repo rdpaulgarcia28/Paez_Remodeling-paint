@@ -1,0 +1,30 @@
+
+
+.ourServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourServices h1{
+    margin-top: 50px;
+}
+.ourServices p{
+    text-align: center;
+}
+.ourServices_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    margin-top: 30px;
+
+}
+.ourServices_item{
+    width: 300px;
+    height: 300px;
+}
+.ourServices_item h2{
+    text-align: center;
+}
+.ourServices_item img{}
